@@ -10,6 +10,7 @@ import Message from './components/Message';
 import Parent from './components/ContainerSample';
 import Page from './components/ContextSample';
 import UseStateCounter from './components/StudyReactHooks/useStateCounter';
+import UseReducerCounter from './components/StudyReactHooks/useReducerCount';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -18,7 +19,7 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     <Page/>
-    <UseStateCounter initialValue={10} />
+    <UseReducerCounter initialValue={10} />
   </React.StrictMode>
 );
 
