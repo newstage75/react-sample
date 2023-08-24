@@ -8,6 +8,7 @@ import Name from './components/Name';
 import reportWebVitals from './reportWebVitals';
 import Message from './components/Message';
 import Parent from './components/ContainerSample';
+import Page from './components/ContextSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -15,10 +16,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Hello />
-    <Name />
-    <Message />
-    <Parent />
+    <Page/>
   </React.StrictMode>
 );
 
