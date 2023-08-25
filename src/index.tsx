@@ -1,16 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//Appの代わりにHelloをインポート
 import App from './App';
-import Hello from './components/Hello'
-import Name from './components/Name';
 import reportWebVitals from './reportWebVitals';
-import Message from './components/Message';
-import Parent from './components/ContainerSample';
 import Page from './components/ContextSample';
-import UseStateCounter from './components/StudyReactHooks/useStateCounter';
-import UseReducerCounter from './components/StudyReactHooks/useReducerCounter';
+
+import { Parent } from './components/StudyReactHooks/Parent';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -19,7 +14,7 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     <Page/>
-    <UseReducerCounter initialValue={10} />
+    <Parent />
   </React.StrictMode>
 );
 
