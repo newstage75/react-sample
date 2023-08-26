@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Page from './components/ContextSample';
 
-import { Parent } from './components/StudyReactHooks/useCallbackParent';
+import { UseMemoSample } from './components/StudyReactHooks/useMemoSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,7 +14,7 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     <Page/>
-    <Parent />
+    <UseMemoSample />
   </React.StrictMode>
 );
 
