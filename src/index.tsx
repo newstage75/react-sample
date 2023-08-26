@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Page from './components/ContextSample';
 
-import { Parent } from './components/StudyReactHooks/Parent';
+import { Parent } from './components/StudyReactHooks/useCallbackParent';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
