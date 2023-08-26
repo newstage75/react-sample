@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Page from './components/ContextSample';
 
-import UseMemoSample from './components/StudyReactHooks/useMemoSample';
+import Clock from './components/StudyReactHooks/UseEffectSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,7 +14,7 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     <Page/>
-    <UseMemoSample />
+    <Clock />
   </React.StrictMode>
 );
 
